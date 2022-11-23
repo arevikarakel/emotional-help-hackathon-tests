@@ -1,4 +1,4 @@
-package utils;
+package com.epam.hackathon.emotional_help.testing.utils;
 
 import java.io.IOException;
 import java.io.InputStream;

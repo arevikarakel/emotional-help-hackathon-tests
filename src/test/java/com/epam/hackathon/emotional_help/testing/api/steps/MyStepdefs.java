@@ -1,12 +1,12 @@
-package ApiTests.steps;
+package com.epam.hackathon.emotional_help.testing.api.steps;
 
+import com.epam.hackathon.emotional_help.testing.utils.RequestUtils;
+import com.epam.hackathon.emotional_help.testing.utils.ResponseUtils;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
 import org.assertj.core.api.Assertions;
-import utils.RequestUtils;
-import utils.ResponseUtils;
 
 public class MyStepdefs {
 

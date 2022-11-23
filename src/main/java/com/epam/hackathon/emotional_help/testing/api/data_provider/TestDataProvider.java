@@ -1,7 +1,7 @@
-package api.dataProvider;
+package com.epam.hackathon.emotional_help.testing.api.data_provider;
 
+import com.epam.hackathon.emotional_help.testing.utils.PropertiesReader;
 import lombok.experimental.UtilityClass;
-import utils.PropertiesReader;
 
 @UtilityClass
 public final class TestDataProvider {

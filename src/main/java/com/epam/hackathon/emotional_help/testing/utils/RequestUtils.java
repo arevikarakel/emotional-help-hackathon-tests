@@ -1,4 +1,4 @@
-package utils;
+package com.epam.hackathon.emotional_help.testing.utils;
 
 import io.restassured.RestAssured;
 import io.restassured.response.ValidatableResponse;

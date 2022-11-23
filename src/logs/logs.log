@@ -1,72 +1,36 @@
-13:41:45.880 [main] INFO  utils.RequestUtils - [
-    {
-        "id": 2853,
-        "name": "Vasudev Acharya Sr.",
-        "email": "sr_acharya_vasudev@kohler.name",
-        "gender": "female",
-        "status": "active"
-    },
-    {
-        "id": 2851,
-        "name": "Arya Mehrotra",
-        "email": "mehrotra_arya@gerhold.com",
-        "gender": "male",
-        "status": "inactive"
-    },
-    {
-        "id": 2850,
-        "name": "Dr. Lakshman Dubashi",
-        "email": "lakshman_dubashi_dr@rowe.info",
-        "gender": "female",
-        "status": "inactive"
-    },
-    {
-        "id": 2848,
-        "name": "Bhooshit Varman",
-        "email": "varman_bhooshit@ward.io",
-        "gender": "male",
-        "status": "active"
-    },
-    {
-        "id": 2847,
-        "name": "Sumitra Mehrotra",
-        "email": "mehrotra_sumitra@shields-marks.co",
-        "gender": "female",
-        "status": "inactive"
-    },
-    {
-        "id": 2705,
-        "name": "Ahilya Mehra",
-        "email": "mehra_ahilya@jacobson.net",
-        "gender": "male",
-        "status": "inactive"
-    },
-    {
-        "id": 2704,
-        "name": "Kalpana Kaur",
-        "email": "kaur_kalpana@bradtke.org",
-        "gender": "female",
-        "status": "inactive"
-    },
-    {
-        "id": 2703,
-        "name": "Jaya Dutta",
-        "email": "jaya_dutta@hills-cartwright.biz",
-        "gender": "female",
-        "status": "inactive"
-    },
-    {
-        "id": 2702,
-        "name": "Pran Nambeesan",
-        "email": "pran_nambeesan@greenholt.name",
-        "gender": "male",
-        "status": "inactive"
-    },
-    {
-        "id": 2701,
-        "name": "Harit Kapoor",
-        "email": "harit_kapoor@satterfield.name",
-        "gender": "female",
-        "status": "active"
-    }
-]
+15:48:52.358 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
+15:48:52.361 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+15:48:52.366 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - Existing user id is 
+15:48:53.504 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id -  not found
+15:48:53.505 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+15:48:53.506 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+15:48:53.568 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
+15:48:53.568 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+15:48:53.587 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - -1 not found
+15:48:53.587 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
+15:48:53.588 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
+15:48:53.596 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
+15:48:53.596 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+15:48:53.620 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - err not found
+15:48:53.620 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
+15:48:53.620 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
+15:48:53.625 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
+15:48:53.625 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+15:48:53.655 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - 0 not found
+15:48:53.656 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
+15:48:53.656 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
+15:48:53.661 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
+15:48:53.661 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+15:48:53.677 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - } not found
+15:48:53.677 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
+15:48:53.677 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
+15:48:53.681 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
+15:48:53.682 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+15:48:53.713 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - # not found
+15:48:53.714 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
+15:48:53.714 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
+15:48:53.718 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
+15:48:53.719 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+15:48:53.733 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - ^ not found
+15:48:53.734 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
+15:48:53.734 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404

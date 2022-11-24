@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/java/ApiTests/features/GetAllUsers.feature",
+        features = "src/test/java/com/epam/hackathon/emotional_help/testing/api/features/GetAllUsers.feature",
         glue = {"com/epam/hackathon/emotional_help/testing/api/steps"}
 )
 public class TestRunner {

@@ -34,4 +34,13 @@ public class RequestUtils {
         logger.info(response.extract().body().asPrettyString());
     }
 
+    public static void postWithJsonBody(String endpoint, Object body) {
+        response = RestAssured
+                .given()
+                    .contentType("application/json")
+                    .body(body)
+                .post(endpoint)
+                .then();
+        logger.info(response.extract().body().asPrettyString());
+    }
 }

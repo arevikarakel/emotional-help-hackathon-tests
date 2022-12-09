@@ -1,36 +1,209 @@
-15:48:52.358 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
-15:48:52.361 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
-15:48:52.366 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - Existing user id is 
-15:48:53.504 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id -  not found
-15:48:53.505 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
-15:48:53.506 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
-15:48:53.568 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
-15:48:53.568 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
-15:48:53.587 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - -1 not found
-15:48:53.587 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
-15:48:53.588 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
-15:48:53.596 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
-15:48:53.596 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
-15:48:53.620 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - err not found
-15:48:53.620 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
-15:48:53.620 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
-15:48:53.625 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
-15:48:53.625 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
-15:48:53.655 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - 0 not found
-15:48:53.656 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
-15:48:53.656 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
-15:48:53.661 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
-15:48:53.661 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
-15:48:53.677 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - } not found
-15:48:53.677 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
-15:48:53.677 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
-15:48:53.681 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
-15:48:53.682 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
-15:48:53.713 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - # not found
-15:48:53.714 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
-15:48:53.714 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
-15:48:53.718 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
-15:48:53.719 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
-15:48:53.733 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - ^ not found
-15:48:53.734 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
-15:48:53.734 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
+12:21:17.970 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:17.972 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:17.977 [main] INFO  c.e.h.e.t.a.d.UserProvider - Random user is UserDto(name=cQsT, username=cQsTmap, password=cQsTmap123, confirmPassword=cQsTmap123, email=cQsTmap@gmail.com)
+12:21:17.984 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-up
+12:21:19.343 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - 046125dd-25a3-4420-b7bf-45b7771be61e
+12:21:19.344 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+12:21:19.345 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+12:21:19.400 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:19.400 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:19.400 [main] INFO  c.e.h.e.t.a.d.UserProvider - Random user is UserDto(name=NEwW, username=cQsTmap, password=lDwz123, confirmPassword=lDwz123, email=lDwz123@gmail.com)
+12:21:19.401 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-up
+12:21:19.427 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Username 'cQsTmap' is taken
+12:21:19.427 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 409
+12:21:19.427 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 409
+12:21:19.430 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Registration by existing username error message is -Username 'cQsTmap' is taken
+12:21:19.434 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:19.435 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:19.435 [main] INFO  c.e.h.e.t.a.d.UserProvider - Random user is UserDto(name=IuKm, username=iMnd, password=iMnd123, confirmPassword=iMnd123, email=cQsTmap@gmail.com)
+12:21:19.435 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-up
+12:21:19.464 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Email 'cQsTmap@gmail.com' is taken
+12:21:19.465 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 409
+12:21:19.465 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 409
+12:21:19.465 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Registration by existing email error message is -Email 'cQsTmap@gmail.com' is taken
+12:21:19.471 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:19.471 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:19.472 [main] INFO  c.e.h.e.t.a.d.UserProvider - Random user is UserDto(name=aVQb, username=aVQbmap, password=aVQb12, confirmPassword=aVQb12, email=aVQbmap@gmail.com)
+12:21:19.472 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-up
+12:21:19.505 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Password must be at least 7 characters
+12:21:19.506 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 409
+12:21:19.506 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 409
+12:21:19.507 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Registration by invalid password error message is - Password must be at least 7 characters
+12:21:19.513 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:19.513 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:19.514 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-in
+12:21:19.615 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - e7f70d37-6cf4-4bd9-841a-52bda57261ef
+12:21:19.616 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Token is e7f70d37-6cf4-4bd9-841a-52bda57261ef
+12:21:19.616 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+12:21:19.616 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+12:21:19.620 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:19.620 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:19.620 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-in
+12:21:19.643 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Invalid login and/or password
+12:21:19.643 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 409
+12:21:19.643 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 409
+12:21:19.644 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Login expected error message is - Invalid login and/or password
+12:21:19.644 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Login actual error message is - Invalid login and/or password
+12:21:19.649 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:19.649 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:19.649 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-in
+12:21:19.659 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Invalid login and/or password
+12:21:19.660 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 409
+12:21:19.660 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 409
+12:21:19.660 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Login expected error message is - Invalid login and/or password
+12:21:19.660 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Login actual error message is - Invalid login and/or password
+12:21:19.664 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:19.664 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:19.664 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-in
+12:21:19.695 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Invalid login and/or password
+12:21:19.696 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 409
+12:21:19.696 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 409
+12:21:19.696 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Login expected error message is - Invalid login and/or password
+12:21:19.696 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Login actual error message is - Invalid login and/or password
+12:21:19.700 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:19.700 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:19.700 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-in
+12:21:19.711 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Invalid login and/or password
+12:21:19.711 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 409
+12:21:19.711 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 409
+12:21:19.712 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Login expected error message is - Invalid login and/or password
+12:21:19.713 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Login actual error message is - Invalid login and/or password
+12:21:19.716 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:19.716 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:19.742 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - true
+12:21:19.742 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+12:21:19.742 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+12:21:19.746 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:19.746 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:19.758 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "timestamp": "2022-12-09T08:21:19.755+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/users/logout"
+}
+12:21:19.759 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 401
+12:21:19.759 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 401
+12:21:19.765 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:19.766 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:19.791 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - emotional-maps
+12:21:19.806 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - [
+    {
+        "name": "Fear",
+        "value": 0
+    },
+    {
+        "name": "Angry",
+        "value": 0
+    },
+    {
+        "name": "Sadness",
+        "value": 0
+    },
+    {
+        "name": "Joy",
+        "value": 0
+    },
+    {
+        "name": "Surprise",
+        "value": 0
+    },
+    {
+        "name": "Happy",
+        "value": 3
+    }
+]
+12:21:19.806 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+12:21:19.806 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+12:21:20.024 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:20.024 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:20.026 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - emotional-maps
+12:21:20.037 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - [
+    {
+        "name": "Fear",
+        "value": 0
+    },
+    {
+        "name": "Angry",
+        "value": 0
+    },
+    {
+        "name": "Sadness",
+        "value": 0
+    },
+    {
+        "name": "Joy",
+        "value": 0
+    },
+    {
+        "name": "Surprise",
+        "value": 0
+    },
+    {
+        "name": "Happy",
+        "value": 3
+    }
+]
+12:21:20.038 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+12:21:20.038 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+12:21:20.544 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - Saved user's emotional-map value is - 3
+12:21:20.548 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:20.548 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:20.548 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - Existing user id is 1
+12:21:20.559 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - [
+    {
+        "name": "Fear",
+        "value": 0
+    },
+    {
+        "name": "Angry",
+        "value": 0
+    },
+    {
+        "name": "Sadness",
+        "value": 0
+    },
+    {
+        "name": "Joy",
+        "value": 0
+    },
+    {
+        "name": "Surprise",
+        "value": 0
+    },
+    {
+        "name": "Happy",
+        "value": 3
+    }
+]
+12:21:20.559 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+12:21:20.559 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+12:21:20.574 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:20.574 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:20.587 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - -1 not found
+12:21:20.587 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
+12:21:20.588 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
+12:21:20.589 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - NonExistent users emotional map response error message is - Emotional map with user id - -1 not found
+12:21:20.596 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:20.596 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:20.651 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - err not found
+12:21:20.652 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
+12:21:20.652 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
+12:21:20.653 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - NonExistent users emotional map response error message is - Emotional map with user id - err not found
+12:21:20.656 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:20.656 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:20.665 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - 0 not found
+12:21:20.666 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
+12:21:20.666 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
+12:21:20.666 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - NonExistent users emotional map response error message is - Emotional map with user id - 0 not found
+12:21:20.669 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:20.669 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:20.677 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - @#$ not found
+12:21:20.678 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
+12:21:20.678 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
+12:21:20.680 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - NonExistent users emotional map response error message is - Emotional map with user id - @#$ not found
+12:21:20.683 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+12:21:20.683 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+12:21:20.693 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - null not found
+12:21:20.693 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
+12:21:20.693 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
+12:21:20.693 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - NonExistent users emotional map response error message is - Emotional map with user id - null not found

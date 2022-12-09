@@ -6,6 +6,8 @@ import com.github.fge.jsonschema.main.JsonSchemaFactory;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.ValidatableResponse;
 
+import java.util.List;
+
 public class ResponseUtils {
     public static ValidatableResponse getResponse() {
         return RequestUtils.getResponse();

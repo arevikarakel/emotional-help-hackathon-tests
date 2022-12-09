@@ -9,50 +9,40 @@ public class UserProvider {
 
     private final static Logger logger = LoggerFactory.getLogger(UserProvider.class);
 
-    private static String name;
     private static String username;
     private static String password;
-    private static String confirmPassword;
     private static String email;
 
 
     public static UserDto getRandomUser() {
-        name = RandomStringUtils.randomAlphabetic(4);
-        username = name + "map";
+        username = RandomStringUtils.randomAlphabetic(4);;
         password = username + "123";
-        confirmPassword = password;
         email = username + "@gmail.com";
-        logger.info("Random user is {}", new UserDto(name, username, password, confirmPassword, email));
-        return new UserDto(name, username, password, confirmPassword, email);
+        logger.info("Random user is {}", new UserDto( username, password, email));
+        return new UserDto(username, password, email);
     }
 
     public static UserDto getRandomUserWithExistingUsername() {
-        name = RandomStringUtils.randomAlphabetic(4);
         username = SharedTestData.getUsername();
         password = RandomStringUtils.randomAlphabetic(4) + "123";
-        confirmPassword = password;
         email = password + "@gmail.com";
-        logger.info("Random user is {}", new UserDto(name, username, password, confirmPassword, email));
-        return new UserDto(name, username, password, confirmPassword, email);
+        logger.info("Random user is {}", new UserDto(username, password, email));
+        return new UserDto(username, password, email);
     }
 
     public static UserDto getRandomUserWithExistingEmail() {
-        name = RandomStringUtils.randomAlphabetic(4);
         username = RandomStringUtils.randomAlphabetic(4);
         email = SharedTestData.getEmail();
         password = username + "123";
-        confirmPassword = password;
-        logger.info("Random user is {}", new UserDto(name, username, password, confirmPassword, email));
-        return new UserDto(name, username, password, confirmPassword, email);
+        logger.info("Random user is {}", new UserDto(username, password, email));
+        return new UserDto(username, password, email);
     }
 
     public static UserDto getRandomUserWithInvalidPassword() {
-        name = RandomStringUtils.randomAlphabetic(4);
-        username = name + "map";
+        username = RandomStringUtils.randomAlphabetic(4);
         email = username + "@gmail.com";
-        password = name + "12";
-        confirmPassword = password;
-        logger.info("Random user is {}", new UserDto(name, username, password, confirmPassword, email));
-        return new UserDto(name, username, password, confirmPassword, email);
+        password = username + "12";
+        logger.info("Random user is {}", new UserDto( username, password, email));
+        return new UserDto(username, password, email);
     }
 }

@@ -1,0 +1,99 @@
+{
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://example.com/object1670249926.json",
+    "title": "Root",
+    "type": "object",
+    "required": [
+        "title",
+        "questions"
+    ],
+    "properties": {
+        "title": {
+            "$id": "#root/title",
+            "title": "Title",
+            "type": "string",
+            "default": "",
+            "examples": [
+                "string"
+            ],
+            "pattern": "^.*$"
+        },
+        "questions": {
+            "$id": "#root/questions",
+            "title": "Questions",
+            "type": "array",
+            "default": [],
+            "items":{
+                "$id": "#root/questions/items",
+                "title": "Items",
+                "type": "object",
+                "required": [
+                    "questionText",
+                    "answers"
+                ],
+                "properties": {
+                    "questionText": {
+                        "$id": "#root/questions/items/questionText",
+                        "title": "Questiontext",
+                        "type": "string",
+                        "default": "",
+                        "examples": [
+                            "string"
+                        ],
+                        "pattern": "^.*$"
+                    },
+                    "answers": {
+                        "$id": "#root/questions/items/answers",
+                        "title": "Answers",
+                        "type": "array",
+                        "default": [],
+                        "items":{
+                            "$id": "#root/questions/items/answers/items",
+                            "title": "Items",
+                            "type": "object",
+                            "required": [
+                                "value",
+                                "mark",
+                                "answerGroup"
+                            ],
+                            "properties": {
+                                "value": {
+                                    "$id": "#root/questions/items/answers/items/value",
+                                    "title": "Value",
+                                    "type": "string",
+                                    "default": "",
+                                    "examples": [
+                                        "string"
+                                    ],
+                                    "pattern": "^.*$"
+                                },
+                                "mark": {
+                                    "$id": "#root/questions/items/answers/items/mark",
+                                    "title": "Mark",
+                                    "type": "integer",
+                                    "examples": [
+                                        0
+                                    ],
+                                    "default": 0
+                                },
+                                "answerGroup": {
+                                    "$id": "#root/questions/items/answers/items/answerGroup",
+                                    "title": "Answergroup",
+                                    "type": "string",
+                                    "default": "",
+                                    "examples": [
+                                        "ANGRY"
+                                    ],
+                                    "pattern": "^.*$"
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+
+        }
+    }
+}

@@ -1,4 +1,4 @@
-package com.epam.hackathon.emotional_help.testing.api.steps.authSteps;
+package com.epam.hackathon.emotional_help.testing.api.runner.authSteps;
 
 import com.epam.hackathon.emotional_help.testing.api.dataProviders.Endpoints;
 import com.epam.hackathon.emotional_help.testing.api.dataProviders.SharedTestData;
@@ -24,4 +24,5 @@ public class Logout {
     public void withoutTokenIsNotPossibleLogout() {
         RequestUtils.get(Endpoints.LOGOUT.getEndpoint());
     }
+
 }

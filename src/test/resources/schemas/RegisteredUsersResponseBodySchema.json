@@ -1,15 +1,11 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
     "id": {
       "type": "integer"
     },
-    "name": {
-      "type": [
-        "string",
-        "null"
-      ]
+    "uuid": {
+      "type": "string"
     },
     "username": {
       "type": "string"
@@ -19,13 +15,34 @@
     },
     "email": {
       "type": "string"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "authorities": {
+      "type": "array",
+      "items": {}
+    },
+    "accountNonLocked": {
+      "type": "boolean"
+    },
+    "accountNonExpired": {
+      "type": "boolean"
+    },
+    "credentialsNonExpired": {
+      "type": "boolean"
     }
   },
   "required": [
     "id",
-    "name",
+    "uuid",
     "username",
     "password",
-    "email"
+    "email",
+    "enabled",
+    "authorities",
+    "accountNonLocked",
+    "accountNonExpired",
+    "credentialsNonExpired"
   ]
 }

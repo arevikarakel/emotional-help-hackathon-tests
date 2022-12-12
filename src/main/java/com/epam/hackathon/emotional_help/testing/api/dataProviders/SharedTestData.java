@@ -5,6 +5,15 @@ public final class SharedTestData {
     private static String username;
     private static String password;
     private static String email;
+    private static int existingUserId;
+
+    public static int getExistingUserId() {
+        return existingUserId;
+    }
+
+    public static void setExistingUserId(int existingUserId) {
+        SharedTestData.existingUserId = existingUserId;
+    }
 
     public static String getToken() {
         return token;

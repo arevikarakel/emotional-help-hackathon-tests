@@ -6,8 +6,6 @@ import com.github.fge.jsonschema.main.JsonSchemaFactory;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.ValidatableResponse;
 
-import java.util.List;
-
 public class ResponseUtils {
     public static ValidatableResponse getResponse() {
         return RequestUtils.getResponse();
@@ -41,6 +39,12 @@ public class ResponseUtils {
                 .getString(path);
     }
 
+    public static double getDoubleFromResponse(String path) {
+        return getResponse()
+                .extract()
+                .jsonPath()
+                .getDouble(path);
+    }
     public static int getIntFromResponse(String path) {
         return getResponse()
                 .extract()

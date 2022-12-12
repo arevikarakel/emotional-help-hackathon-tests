@@ -1,36 +1,1004 @@
-15:48:52.358 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
-15:48:52.361 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
-15:48:52.366 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - Existing user id is 
-15:48:53.504 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id -  not found
-15:48:53.505 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
-15:48:53.506 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
-15:48:53.568 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
-15:48:53.568 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
-15:48:53.587 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - -1 not found
-15:48:53.587 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
-15:48:53.588 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
-15:48:53.596 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
-15:48:53.596 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
-15:48:53.620 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - err not found
-15:48:53.620 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
-15:48:53.620 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
-15:48:53.625 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
-15:48:53.625 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
-15:48:53.655 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - 0 not found
-15:48:53.656 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
-15:48:53.656 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
-15:48:53.661 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
-15:48:53.661 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
-15:48:53.677 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - } not found
-15:48:53.677 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
-15:48:53.677 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
-15:48:53.681 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
-15:48:53.682 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
-15:48:53.713 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - # not found
-15:48:53.714 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
-15:48:53.714 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
-15:48:53.718 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost/
-15:48:53.719 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
-15:48:53.733 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - ^ not found
-15:48:53.734 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
-15:48:53.734 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
+21:47:39.613 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:39.617 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:41.295 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "id": 6,
+    "tip": "You are great, keep going",
+    "video": "https://www.youtube.com/watch?v=_l0Da-_x0sE",
+    "feeling": "HAPPY"
+}
+21:47:41.295 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:41.296 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:42.677 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:42.677 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:42.708 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "id": 1,
+    "tip": "1. Educate Yourself The first thing to do if you want to help someone with depression is to learn more about the illness. If you have never suffered from depression, it can be very difficult to empathize with someone who is. There are lots of very good resources online that you can refer to. So, do some research and then you will be much better equipped to offer your friend help and support. 2. Take It Seriously Depression is not something that someone can snap out of. You cant fix the problem with one good night out, for example. When you are talking to someone with depression, don't try to make light of the condition. Depression is a serious illness. You won't be able to help a depressed person by telling them to cheer up or to pull themselves together and get over it.",
+    "video": "https://www.youtube.com/watch?v=_l0Da-_x0sE",
+    "feeling": "SADNESS"
+}
+21:47:42.709 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:42.709 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:42.752 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:42.752 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:42.782 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "id": 5,
+    "tip": "1. Make sure your basic needs are met Before we get into the fun activities, let’s talk about your basic needs. Your mood is directly affected by factors like sleep and food. To give your brain the foundation it needs to feel happy, you need to be fed and well-rested. If your mood is low, try asking yourself: Have I had enough sleep? Have I had a nutritious meal recently? Did I drink enough water today? Often, you might feel moody without realizing that it’s because you’re tired or hungry. In that case, increasing happiness might be as simple as eating, taking a nap, or having a glass of water. You can read about evidence-based ways to improve your sleep here.",
+    "video": "https://www.youtube.com/watch?v=_l0Da-_x0sE",
+    "feeling": "JOY"
+}
+21:47:42.782 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:42.782 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:42.828 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:42.829 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:42.854 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "id": 2,
+    "tip": "1. Allow yourself to sit with your fear for 2-3 minutes at a time. Breathe with it and say, “It’s okay. It feels lousy but emotions are like the ocean—the waves ebb and flow.” Have something nurturing planned immediately after your 2-3 minute sitting period is completed: Call the good friend waiting to hear from you; immerse yourself in an activity you know is enjoyable and engrossing. 2. Write down the things you are grateful for. Look at the list when you feel youre in a bad place. 3. Add to the list. Remind yourself that your anxiety is a storehouse of wisdom. 4. Write a letter, “Dear Anxiety, I am no longer intimidated by you. 5. What can you teach me?” Exercise. Exercise can refocus you (your mind can only focus on one thing at a time). Whether you go on a short walk, head to a boxing gym for an all-out sweat session, or turn on a 15-minute yoga video at home, exercise is good for you and it will ground you and help you feel more capable. 6. Use humor to deflate your worst fears. For instance, what are some ridiculous worst-case scenarios that might happen if you accept an invitation to deliver a speech to a crowd of 500 people? I might pee in my pants at the podium *** I will be arrested for giving the worst speech in history *** My first boyfriend (girlfriend) will be in the audience and heckle me. Appreciate your courage. Doreen would tell herself during difficult times, “Every time I don’t allow fear to keep me from doing something that scares me, I am making myself stronger and less likely to let the next fear attack stop me.”",
+    "video": "https://www.youtube.com/watch?v=e9pTjkXviT8",
+    "feeling": "FEAR"
+}
+21:47:42.854 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:42.855 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:42.896 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:42.897 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:42.915 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "id": 3,
+    "tip": "1. Question your thought pattern Negative thoughts can take root in your mind and distort the severity of the situation. One way is to challenge your fears, ask if they’re true, and see where you can take back control. 2. Practice focused, deep breathing Try breathing in for 4 counts and breathing out for 4 counts for 5 minutes total. By evening out your breath, you’ll slow your heart rate which should help calm you down. The 4-7-8 technique is also known to help anxiety. 3. Use aromatherapy Whether they’re in essential oil form, incense, or a candle, natural scents like lavender, chamomile, and sandalwood can be very soothing. Aromatherapy is thought to help activate certain receptors in your brain, potentially easing anxiety.",
+    "video": "https://www.youtube.com/watch?v=_l0Da-_x0sE",
+    "feeling": "ANGRY"
+}
+21:47:42.915 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:42.916 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:42.954 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:42.954 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:42.974 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "id": 4,
+    "tip": "Acknowledge the fact, and learn to accept that surprises and unexpected events are part of life and are unavoidable. When you accept this fact, to some extent, it will be easier to deal whatever happens in your life. Life is dynamic, not static. Change is part of life, and the sooner you acknowledge and accept this fact, the better it would be. The key to everything is your attitude. A positive attitude is an asset in unexpected situations. Not all unexpected events are negative. Sometimes, what seems like a problem, or even a disaster, could be a blessing in disguise. A negative event can awaken ambition, motivation, and persistence, which would lead to progress and success. Even getting fired from work, could eventually turn out well, as you might find a better and more satisfying job. A loss or failure can make you search for something better.",
+    "video": "https://www.youtube.com/watch?v=_l0Da-_x0sE",
+    "feeling": "SURPRISE"
+}
+21:47:42.974 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:42.974 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:43.010 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:43.013 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:43.017 [main] INFO  c.e.h.e.t.a.d.UserProvider - Random user is UserDto(username=MiGB, password=MiGB123, email=MiGB@gmail.com)
+21:47:43.029 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-up
+21:47:43.572 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - e8cc8ff9-e9b8-4900-b1c9-33646623292a
+21:47:43.573 [main] INFO  c.e.h.e.t.a.s.authSteps.Registration - Token from response is - e8cc8ff9-e9b8-4900-b1c9-33646623292a
+21:47:43.573 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:43.573 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:43.578 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:43.578 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:43.578 [main] INFO  c.e.h.e.t.a.d.UserProvider - Random user is UserDto(username=MiGB, password=Eztw123, email=Eztw123@gmail.com)
+21:47:43.579 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-up
+21:47:43.626 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Username 'MiGB' is taken
+21:47:43.627 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 409
+21:47:43.627 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 409
+21:47:43.627 [main] INFO  c.e.h.e.t.a.s.authSteps.Registration - Registration by existing username error message is -Username 'MiGB' is taken
+21:47:43.634 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:43.634 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:43.635 [main] INFO  c.e.h.e.t.a.d.UserProvider - Random user is UserDto(username=abXI, password=abXI123, email=MiGB@gmail.com)
+21:47:43.635 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-up
+21:47:43.656 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Email 'MiGB@gmail.com' is taken
+21:47:43.656 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 409
+21:47:43.656 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 409
+21:47:43.657 [main] INFO  c.e.h.e.t.a.s.authSteps.Registration - Registration by existing email error message is -Email 'MiGB@gmail.com' is taken
+21:47:43.663 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:43.663 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:43.664 [main] INFO  c.e.h.e.t.a.d.UserProvider - Random user is UserDto(username=toAd, password=toAd12, email=toAd@gmail.com)
+21:47:43.665 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-up
+21:47:43.687 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Password must be at least 7 characters
+21:47:43.687 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 409
+21:47:43.687 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 409
+21:47:43.688 [main] INFO  c.e.h.e.t.a.s.authSteps.Registration - Registration by invalid password error message is - Password must be at least 7 characters
+21:47:43.693 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:43.693 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:43.693 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-in
+21:47:43.800 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - ac5cc885-4adf-472c-94fa-01812eeadde4
+21:47:43.801 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Token is ac5cc885-4adf-472c-94fa-01812eeadde4
+21:47:43.801 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:43.801 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:43.808 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:43.808 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:43.808 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-in
+21:47:43.834 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Invalid login and/or password
+21:47:43.834 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 409
+21:47:43.834 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 409
+21:47:43.835 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Login expected error message is - Invalid login and/or password
+21:47:43.835 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Login actual error message is - Invalid login and/or password
+21:47:43.842 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:43.842 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:43.842 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-in
+21:47:43.856 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Invalid login and/or password
+21:47:43.856 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 409
+21:47:43.856 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 409
+21:47:43.857 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Login expected error message is - Invalid login and/or password
+21:47:43.857 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Login actual error message is - Invalid login and/or password
+21:47:43.862 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:43.863 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:43.863 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-in
+21:47:43.883 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Invalid login and/or password
+21:47:43.883 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 409
+21:47:43.883 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 409
+21:47:43.883 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Login expected error message is - Invalid login and/or password
+21:47:43.883 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Login actual error message is - Invalid login and/or password
+21:47:43.889 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:43.889 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:43.890 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-in
+21:47:43.902 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Invalid login and/or password
+21:47:43.902 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 409
+21:47:43.903 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 409
+21:47:43.903 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Login expected error message is - Invalid login and/or password
+21:47:43.903 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Login actual error message is - Invalid login and/or password
+21:47:43.907 [main] INFO  c.e.h.e.t.a.d.UserProvider - Random user is UserDto(username=kSQD, password=kSQD123, email=kSQD@gmail.com)
+21:47:43.907 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-up
+21:47:44.145 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - 87a25346-9ebc-4e38-9185-f4d06f1aefa1
+21:47:44.146 [main] INFO  c.e.h.e.t.a.s.authSteps.Registration - Token from response is - 87a25346-9ebc-4e38-9185-f4d06f1aefa1
+21:47:44.202 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "id": 2,
+    "uuid": "87a25346-9ebc-4e38-9185-f4d06f1aefa1",
+    "username": "kSQD",
+    "password": "$2a$10$ILNA/duQjHfsxvjDeW6L1.k/rDFrfMSP7c0iYnwC5Q423k.r8QQlq",
+    "email": "kSQD@gmail.com",
+    "enabled": true,
+    "authorities": [
+        
+    ],
+    "accountNonLocked": true,
+    "credentialsNonExpired": true,
+    "accountNonExpired": true
+}
+21:47:44.218 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:44.219 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:44.231 [main] INFO  c.e.h.e.t.a.d.UserProvider - Random user is UserDto(username=cmIp, password=cmIp123, email=cmIp@gmail.com)
+21:47:44.231 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - auth/sign-up
+21:47:44.411 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - 241648d9-bcef-4fb8-91e4-a54bde6560ed
+21:47:44.411 [main] INFO  c.e.h.e.t.a.s.authSteps.Registration - Token from response is - 241648d9-bcef-4fb8-91e4-a54bde6560ed
+21:47:44.432 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "id": 3,
+    "uuid": "241648d9-bcef-4fb8-91e4-a54bde6560ed",
+    "username": "cmIp",
+    "password": "$2a$10$v2S/NpSh4O4.haP2X946w.WkPE6qfa8Z764/eh0G41RFg0upcZv0e",
+    "email": "cmIp@gmail.com",
+    "enabled": true,
+    "authorities": [
+        
+    ],
+    "accountNonLocked": true,
+    "credentialsNonExpired": true,
+    "accountNonExpired": true
+}
+21:47:44.449 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:44.449 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:44.466 [main] INFO  c.e.h.e.t.a.s.authSteps.Registration - Encrypted password from response is $2a$10$v2S/NpSh4O4.haP2X946w.WkPE6qfa8Z764/eh0G41RFg0upcZv0e
+21:47:44.467 [main] INFO  c.e.h.e.t.a.s.authSteps.Registration - Password for registration is cmIp123
+21:47:44.493 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:44.494 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:44.526 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - true
+21:47:44.526 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:44.526 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:44.531 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:44.531 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:44.563 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "timestamp": "2022-12-12T17:47:44.554+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/users/logout"
+}
+21:47:44.563 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 401
+21:47:44.563 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 401
+21:47:44.569 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:44.569 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:44.582 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - New emotional-map's body for anonymous user who has none is - {"answers":[{"value":"OK","mark":1,"answerGroup":"HAPPY"}]}
+21:47:44.582 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - emotional-maps
+21:47:44.645 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "diagramValues": [
+        {
+            "name": "Fear",
+            "value": 0.0
+        },
+        {
+            "name": "Angry",
+            "value": 0.0
+        },
+        {
+            "name": "Sadness",
+            "value": 0.0
+        },
+        {
+            "name": "Joy",
+            "value": 0.0
+        },
+        {
+            "name": "Surprise",
+            "value": 0.0
+        },
+        {
+            "name": "Happy",
+            "value": 100.0
+        }
+    ],
+    "createDate": "2022-12-12T21:47:44.6317694"
+}
+21:47:44.645 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - Existing user id is 3
+21:47:44.660 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "diagramValues": [
+        {
+            "name": "Fear",
+            "value": 0.0
+        },
+        {
+            "name": "Angry",
+            "value": 0.0
+        },
+        {
+            "name": "Sadness",
+            "value": 0.0
+        },
+        {
+            "name": "Joy",
+            "value": 0.0
+        },
+        {
+            "name": "Surprise",
+            "value": 0.0
+        },
+        {
+            "name": "Happy",
+            "value": 100.0
+        }
+    ],
+    "createDate": "2022-12-12T21:47:44.631769"
+}
+21:47:44.660 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:44.660 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:44.676 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:44.676 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:44.687 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - 
+21:47:44.687 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 400
+21:47:44.687 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 400
+21:47:44.690 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:44.691 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:44.707 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - -1 not found
+21:47:44.708 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
+21:47:44.708 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
+21:47:44.709 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - NonExistent users emotional map response error message is - Emotional map with user id - -1 not found
+21:47:44.712 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:44.713 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:44.725 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - err not found
+21:47:44.725 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
+21:47:44.725 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
+21:47:44.726 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - NonExistent users emotional map response error message is - Emotional map with user id - err not found
+21:47:44.730 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:44.730 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:44.743 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - @#$ not found
+21:47:44.743 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
+21:47:44.743 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
+21:47:44.743 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - NonExistent users emotional map response error message is - Emotional map with user id - @#$ not found
+21:47:44.748 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:44.748 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:44.764 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Emotional map with user id - null not found
+21:47:44.765 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
+21:47:44.765 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404
+21:47:44.767 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - NonExistent users emotional map response error message is - Emotional map with user id - null not found
+21:47:44.770 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:44.770 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:44.771 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - New emotional-map's body for anonymous user who has none is - {"answers":[{"value":"OK","mark":1,"answerGroup":"HAPPY"}]}
+21:47:44.771 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - emotional-maps
+21:47:44.789 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "diagramValues": [
+        {
+            "name": "Fear",
+            "value": 0.0
+        },
+        {
+            "name": "Angry",
+            "value": 0.0
+        },
+        {
+            "name": "Sadness",
+            "value": 0.0
+        },
+        {
+            "name": "Joy",
+            "value": 0.0
+        },
+        {
+            "name": "Surprise",
+            "value": 0.0
+        },
+        {
+            "name": "Happy",
+            "value": 100.0
+        }
+    ],
+    "createDate": "2022-12-12T21:47:44.7854006"
+}
+21:47:44.790 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:44.790 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:44.805 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:44.805 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:44.806 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - New emotional-map's body for anonymous user who has none is - {"answers":[{"value":"OK","mark":1,"answerGroup":"HAPPY"}]}
+21:47:44.806 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - emotional-maps
+21:47:44.823 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "diagramValues": [
+        {
+            "name": "Fear",
+            "value": 0.0
+        },
+        {
+            "name": "Angry",
+            "value": 0.0
+        },
+        {
+            "name": "Sadness",
+            "value": 0.0
+        },
+        {
+            "name": "Joy",
+            "value": 0.0
+        },
+        {
+            "name": "Surprise",
+            "value": 0.0
+        },
+        {
+            "name": "Happy",
+            "value": 100.0
+        }
+    ],
+    "createDate": "2022-12-12T21:47:44.8178061"
+}
+21:47:44.823 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:44.823 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:44.835 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:44.836 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:44.837 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - New emotional-map's body is - {"answers":[{"value":"SAD","mark":2,"answerGroup":"SADNESS"}]}
+21:47:44.837 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - emotional-maps
+21:47:44.857 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "diagramValues": [
+        {
+            "name": "Fear",
+            "value": 0.0
+        },
+        {
+            "name": "Angry",
+            "value": 0.0
+        },
+        {
+            "name": "Sadness",
+            "value": 100.0
+        },
+        {
+            "name": "Joy",
+            "value": 0.0
+        },
+        {
+            "name": "Surprise",
+            "value": 0.0
+        },
+        {
+            "name": "Happy",
+            "value": 0.0
+        }
+    ],
+    "createDate": "2022-12-12T21:47:44.8527562"
+}
+21:47:44.857 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:44.857 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:44.870 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:44.871 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:44.872 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - New emotional-map's body for anonymous user who has none is - {"answers":[{"value":"SAD","mark":2,"answerGroup":"SADNESS"}]}
+21:47:44.872 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - emotional-maps
+21:47:44.903 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "diagramValues": [
+        {
+            "name": "Fear",
+            "value": 0.0
+        },
+        {
+            "name": "Angry",
+            "value": 0.0
+        },
+        {
+            "name": "Sadness",
+            "value": 100.0
+        },
+        {
+            "name": "Joy",
+            "value": 0.0
+        },
+        {
+            "name": "Surprise",
+            "value": 0.0
+        },
+        {
+            "name": "Happy",
+            "value": 0.0
+        }
+    ],
+    "createDate": "2022-12-12T21:47:44.9003085"
+}
+21:47:44.904 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:44.904 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:44.916 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:44.916 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:44.917 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - New emotional-map's body for anonymous user who has none is - {"answers":[{"value":"OK","mark":1,"answerGroup":"HAPPY"}]}
+21:47:44.917 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - emotional-maps
+21:47:44.935 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "diagramValues": [
+        {
+            "name": "Fear",
+            "value": 0.0
+        },
+        {
+            "name": "Angry",
+            "value": 0.0
+        },
+        {
+            "name": "Sadness",
+            "value": 0.0
+        },
+        {
+            "name": "Joy",
+            "value": 0.0
+        },
+        {
+            "name": "Surprise",
+            "value": 0.0
+        },
+        {
+            "name": "Happy",
+            "value": 100.0
+        }
+    ],
+    "createDate": "2022-12-12T21:47:44.9294868"
+}
+21:47:44.935 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - New emotional-map's body for anonymous user who has none is - {"answers":[{"value":"SAD","mark":2,"answerGroup":"SADNESS"}]}
+21:47:44.935 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - emotional-maps
+21:47:44.954 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "diagramValues": [
+        {
+            "name": "Fear",
+            "value": 0.0
+        },
+        {
+            "name": "Angry",
+            "value": 0.0
+        },
+        {
+            "name": "Sadness",
+            "value": 100.0
+        },
+        {
+            "name": "Joy",
+            "value": 0.0
+        },
+        {
+            "name": "Surprise",
+            "value": 0.0
+        },
+        {
+            "name": "Happy",
+            "value": 0.0
+        }
+    ],
+    "createDate": "2022-12-12T21:47:44.9497307"
+}
+21:47:44.954 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:44.954 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:45.048 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - Saved user's emotional-map value is - 100.0
+21:47:45.053 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:45.053 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:45.055 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - New emotional-map's body for anonymous user who has none is - {"answers":[{"value":"OK","mark":1,"answerGroup":"HAPPY"}]}
+21:47:45.055 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - emotional-maps
+21:47:45.068 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "diagramValues": [
+        {
+            "name": "Fear",
+            "value": 0.0
+        },
+        {
+            "name": "Angry",
+            "value": 0.0
+        },
+        {
+            "name": "Sadness",
+            "value": 0.0
+        },
+        {
+            "name": "Joy",
+            "value": 0.0
+        },
+        {
+            "name": "Surprise",
+            "value": 0.0
+        },
+        {
+            "name": "Happy",
+            "value": 100.0
+        }
+    ],
+    "createDate": "2022-12-12T21:47:45.064608"
+}
+21:47:45.069 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - New emotional-map's body is - {"answers":[{"value":"SAD","mark":2,"answerGroup":"SADNESS"}]}
+21:47:45.069 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - emotional-maps
+21:47:45.083 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "diagramValues": [
+        {
+            "name": "Fear",
+            "value": 0.0
+        },
+        {
+            "name": "Angry",
+            "value": 0.0
+        },
+        {
+            "name": "Sadness",
+            "value": 100.0
+        },
+        {
+            "name": "Joy",
+            "value": 0.0
+        },
+        {
+            "name": "Surprise",
+            "value": 0.0
+        },
+        {
+            "name": "Happy",
+            "value": 0.0
+        }
+    ],
+    "createDate": "2022-12-12T21:47:45.0787199"
+}
+21:47:45.083 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:45.083 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:45.108 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - Saved user's emotional-map value is - 100.0
+21:47:45.112 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:45.112 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:45.114 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - New emotional-map's body is - {"answers":[{"value":"SAD","mark":0,"answerGroup":"SADNESS"}]}
+21:47:45.114 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - emotional-maps
+21:47:45.147 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "timestamp": "2022-12-12T17:47:45.145+00:00",
+    "status": 500,
+    "error": "Internal Server Error",
+    "path": "/emotional-maps"
+}
+21:47:45.148 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 400
+21:47:45.149 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 500
+21:47:45.173 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:45.173 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:45.178 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - New emotional-map's body for anonymous user who has none is - {"answers":[{"value":"OK","mark":1,"answerGroup":"HAPPY"},{"value":"SAD","mark":2,"answerGroup":"SADNESS"},{"value":"SAD","mark":4,"answerGroup":"SURPRISE"},{"value":"SAD","mark":3,"answerGroup":"FEAR"},{"value":"SAD","mark":5,"answerGroup":"JOY"},{"value":"SAD","mark":6,"answerGroup":"ANGRY"}]}
+21:47:45.179 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - emotional-maps
+21:47:45.201 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "diagramValues": [
+        {
+            "name": "Fear",
+            "value": 14.29
+        },
+        {
+            "name": "Angry",
+            "value": 28.57
+        },
+        {
+            "name": "Sadness",
+            "value": 9.52
+        },
+        {
+            "name": "Joy",
+            "value": 23.81
+        },
+        {
+            "name": "Surprise",
+            "value": 19.05
+        },
+        {
+            "name": "Happy",
+            "value": 4.76
+        }
+    ],
+    "createDate": "2022-12-12T21:47:45.1962108"
+}
+21:47:45.201 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:45.201 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:45.217 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:45.217 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:45.220 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - New emotional-map's body for anonymous user who has none is - {"answers":[{"value":"OK","mark":1,"answerGroup":"HAPPY"},{"value":"SAD","mark":4,"answerGroup":"SURPRISE"},{"value":"SAD","mark":4,"answerGroup":"SURPRISE"},{"value":"OK","mark":1,"answerGroup":"HAPPY"}]}
+21:47:45.221 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - emotional-maps
+21:47:45.240 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "diagramValues": [
+        {
+            "name": "Fear",
+            "value": 0.0
+        },
+        {
+            "name": "Angry",
+            "value": 0.0
+        },
+        {
+            "name": "Sadness",
+            "value": 0.0
+        },
+        {
+            "name": "Joy",
+            "value": 0.0
+        },
+        {
+            "name": "Surprise",
+            "value": 80.0
+        },
+        {
+            "name": "Happy",
+            "value": 20.0
+        }
+    ],
+    "createDate": "2022-12-12T21:47:45.2370252"
+}
+21:47:45.240 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:45.240 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:45.256 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:45.256 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:45.257 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - Existing questionnaire title is Emotional map
+21:47:45.349 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - {
+    "title": "Emotional map",
+    "questions": [
+        {
+            "questionText": "Both negative and positive emotions serve me as a source of knowledge about how to act in life.",
+            "answers": [
+                {
+                    "value": "Disagree strongly",
+                    "mark": 2,
+                    "answerGroup": "JOY"
+                },
+                {
+                    "value": "Disagree",
+                    "mark": 1,
+                    "answerGroup": "JOY"
+                },
+                {
+                    "value": "Disagree slightly",
+                    "mark": 1,
+                    "answerGroup": "SADNESS"
+                },
+                {
+                    "value": "Agree slightly",
+                    "mark": 1,
+                    "answerGroup": "SADNESS"
+                },
+                {
+                    "value": "Agree",
+                    "mark": 1,
+                    "answerGroup": "FEAR"
+                },
+                {
+                    "value": "Agree strongly",
+                    "mark": 2,
+                    "answerGroup": "FEAR"
+                }
+            ]
+        },
+        {
+            "questionText": "Negative emotions help me understand what I need to change in my life.",
+            "answers": [
+                {
+                    "value": "Disagree strongly",
+                    "mark": 2,
+                    "answerGroup": "ANGRY"
+                },
+                {
+                    "value": "Disagree",
+                    "mark": 1,
+                    "answerGroup": "ANGRY"
+                },
+                {
+                    "value": "Disagree slightly",
+                    "mark": 1,
+                    "answerGroup": "FEAR"
+                },
+                {
+                    "value": "Agree slightly",
+                    "mark": 1,
+                    "answerGroup": "SURPRISE"
+                },
+                {
+                    "value": "Agree",
+                    "mark": 1,
+                    "answerGroup": "HAPPY"
+                },
+                {
+                    "value": "Agree strongly",
+                    "mark": 2,
+                    "answerGroup": "HAPPY"
+                }
+            ]
+        },
+        {
+            "questionText": "I am calm when I feel pressure from the outside.",
+            "answers": [
+                {
+                    "value": "Disagree strongly",
+                    "mark": 2,
+                    "answerGroup": "FEAR"
+                },
+                {
+                    "value": "Disagree",
+                    "mark": 1,
+                    "answerGroup": "FEAR"
+                },
+                {
+                    "value": "Disagree slightly",
+                    "mark": 1,
+                    "answerGroup": "SADNESS"
+                },
+                {
+                    "value": "Agree slightly",
+                    "mark": 1,
+                    "answerGroup": "SURPRISE"
+                },
+                {
+                    "value": "Agree",
+                    "mark": 1,
+                    "answerGroup": "JOY"
+                },
+                {
+                    "value": "Agree strongly",
+                    "mark": 1,
+                    "answerGroup": "HAPPY"
+                }
+            ]
+        },
+        {
+            "questionText": "I am able to observe the change in my feelings.",
+            "answers": [
+                {
+                    "value": "Disagree strongly",
+                    "mark": 2,
+                    "answerGroup": "SADNESS"
+                },
+                {
+                    "value": "Disagree",
+                    "mark": 1,
+                    "answerGroup": "SADNESS"
+                },
+                {
+                    "value": "Disagree slightly",
+                    "mark": 1,
+                    "answerGroup": "SADNESS"
+                },
+                {
+                    "value": "Agree slightly",
+                    "mark": 1,
+                    "answerGroup": "JOY"
+                },
+                {
+                    "value": "Agree",
+                    "mark": 1,
+                    "answerGroup": "SURPRISE"
+                },
+                {
+                    "value": "Agree strongly",
+                    "mark": 2,
+                    "answerGroup": "HAPPY"
+                }
+            ]
+        },
+        {
+            "questionText": "When necessary, I can be calm and focused to act following the demands of life.",
+            "answers": [
+                {
+                    "value": "Disagree strongly",
+                    "mark": 2,
+                    "answerGroup": "ANGRY"
+                },
+                {
+                    "value": "Disagree",
+                    "mark": 1,
+                    "answerGroup": "ANGRY"
+                },
+                {
+                    "value": "Disagree slightly",
+                    "mark": 1,
+                    "answerGroup": "FEAR"
+                },
+                {
+                    "value": "Agree slightly",
+                    "mark": 1,
+                    "answerGroup": "SURPRISE"
+                },
+                {
+                    "value": "Agree",
+                    "mark": 1,
+                    "answerGroup": "JOY"
+                },
+                {
+                    "value": "Agree strongly",
+                    "mark": 2,
+                    "answerGroup": "HAPPY"
+                }
+            ]
+        },
+        {
+            "questionText": "When necessary, I can evoke a wide range of positive emotions, such as fun, joy, inner upsurge, and humor.",
+            "answers": [
+                {
+                    "value": "Disagree strongly",
+                    "mark": 2,
+                    "answerGroup": "SADNESS"
+                },
+                {
+                    "value": "Disagree",
+                    "mark": 1,
+                    "answerGroup": "SADNESS"
+                },
+                {
+                    "value": "Disagree slightly",
+                    "mark": 1,
+                    "answerGroup": "FEAR"
+                },
+                {
+                    "value": "Agree slightly",
+                    "mark": 1,
+                    "answerGroup": "SURPRISE"
+                },
+                {
+                    "value": "Agree",
+                    "mark": 1,
+                    "answerGroup": "JOY"
+                },
+                {
+                    "value": "Agree strongly",
+                    "mark": 2,
+                    "answerGroup": "HAPPY"
+                }
+            ]
+        },
+        {
+            "questionText": "I closely monitor my health.",
+            "answers": [
+                {
+                    "value": "Disagree strongly",
+                    "mark": 2,
+                    "answerGroup": "SADNESS"
+                },
+                {
+                    "value": "Disagree",
+                    "mark": 1,
+                    "answerGroup": "SADNESS"
+                },
+                {
+                    "value": "Disagree slightly",
+                    "mark": 1,
+                    "answerGroup": "FEAR"
+                },
+                {
+                    "value": "Agree slightly",
+                    "mark": 1,
+                    "answerGroup": "JOY"
+                },
+                {
+                    "value": "Agree",
+                    "mark": 1,
+                    "answerGroup": "HAPPY"
+                },
+                {
+                    "value": "Agree strongly",
+                    "mark": 2,
+                    "answerGroup": "HAPPY"
+                }
+            ]
+        },
+        {
+            "questionText": "After something has upset me, I can easily control my feelings.",
+            "answers": [
+                {
+                    "value": "Disagree strongly",
+                    "mark": 2,
+                    "answerGroup": "ANGRY"
+                },
+                {
+                    "value": "Disagree",
+                    "mark": 1,
+                    "answerGroup": "ANGRY"
+                },
+                {
+                    "value": "Disagree slightly",
+                    "mark": 1,
+                    "answerGroup": "FEAR"
+                },
+                {
+                    "value": "Agree slightly",
+                    "mark": 1,
+                    "answerGroup": "JOY"
+                },
+                {
+                    "value": "Agree",
+                    "mark": 1,
+                    "answerGroup": "SURPRISE"
+                },
+                {
+                    "value": "Agree strongly",
+                    "mark": 1,
+                    "answerGroup": "HAPPY"
+                }
+            ]
+        },
+        {
+            "questionText": "I am able to listen to other people's problems.",
+            "answers": [
+                {
+                    "value": "Disagree strongly",
+                    "mark": 2,
+                    "answerGroup": "FEAR"
+                },
+                {
+                    "value": "Disagree",
+                    "mark": 1,
+                    "answerGroup": "SADNESS"
+                },
+                {
+                    "value": "Disagree slightly",
+                    "mark": 1,
+                    "answerGroup": "ANGRY"
+                },
+                {
+                    "value": "Agree slightly",
+                    "mark": 1,
+                    "answerGroup": "JOY"
+                },
+                {
+                    "value": "Agree",
+                    "mark": 1,
+                    "answerGroup": "SURPRISE"
+                },
+                {
+                    "value": "Agree strongly",
+                    "mark": 2,
+                    "answerGroup": "HAPPY"
+                }
+            ]
+        },
+        {
+            "questionText": "I do not dwell on negative emotions.",
+            "answers": [
+                {
+                    "value": "Disagree strongly",
+                    "mark": 2,
+                    "answerGroup": "SADNESS"
+                },
+                {
+                    "value": "Disagree",
+                    "mark": 2,
+                    "answerGroup": "FEAR"
+                },
+                {
+                    "value": "Disagree slightly",
+                    "mark": 1,
+                    "answerGroup": "ANGRY"
+                },
+                {
+                    "value": "Agree slightly",
+                    "mark": 1,
+                    "answerGroup": "SURPRISE"
+                },
+                {
+                    "value": "Agree",
+                    "mark": 2,
+                    "answerGroup": "JOY"
+                },
+                {
+                    "value": "Agree strongly",
+                    "mark": 2,
+                    "answerGroup": "HAPPY"
+                }
+            ]
+        }
+    ]
+}
+21:47:45.349 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 200
+21:47:45.350 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 200
+21:47:46.020 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_URL is http://localhost:8080/
+21:47:46.020 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The BASE_PATH is 
+21:47:46.021 [main] INFO  c.e.h.e.t.a.s.e.EmotionalMap - Nonexistent questionnaire title is Nonexistent title
+21:47:46.032 [main] INFO  c.e.h.e.t.api.utils.RequestUtils - Questionnaire with title - Nonexistent title not found
+21:47:46.032 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The expected status code is 404
+21:47:46.032 [main] INFO  c.e.h.e.testing.api.steps.CommonStep - The actual status code is 404

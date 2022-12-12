@@ -39,6 +39,12 @@ public class ResponseUtils {
                 .getString(path);
     }
 
+    public static double getDoubleFromResponse(String path) {
+        return getResponse()
+                .extract()
+                .jsonPath()
+                .getDouble(path);
+    }
     public static int getIntFromResponse(String path) {
         return getResponse()
                 .extract()

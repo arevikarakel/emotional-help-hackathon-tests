@@ -50,12 +50,6 @@
             <artifactId>lombok</artifactId>
             <version>1.18.24</version>
         </dependency>
-        <!-- Free Marker -->
-        <dependency>
-            <groupId>org.freemarker</groupId>
-            <artifactId>freemarker</artifactId>
-            <version>2.3.31</version>
-        </dependency>
         <!-- AssertJ -->
         <dependency>
             <groupId>org.assertj</groupId>

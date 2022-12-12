@@ -1,0 +1,48 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "uuid": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "authorities": {
+      "type": "array",
+      "items": {}
+    },
+    "accountNonLocked": {
+      "type": "boolean"
+    },
+    "accountNonExpired": {
+      "type": "boolean"
+    },
+    "credentialsNonExpired": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "uuid",
+    "username",
+    "password",
+    "email",
+    "enabled",
+    "authorities",
+    "accountNonLocked",
+    "accountNonExpired",
+    "credentialsNonExpired"
+  ]
+}

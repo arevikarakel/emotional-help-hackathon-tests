@@ -7,7 +7,8 @@ public enum Endpoints {
     LOGOUT("users/logout"),
     CURRENT("users/current"),
     EMOTIONAL_MAP("emotional-maps"),
-    QUESTIONAIRES("questionnaires");
+    QUESTIONAIRES("questionnaires"),
+    ADVICE("advice/");
 
     private final String text;
 

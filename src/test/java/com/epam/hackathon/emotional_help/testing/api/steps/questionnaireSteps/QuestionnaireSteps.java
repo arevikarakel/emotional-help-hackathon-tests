@@ -3,6 +3,7 @@ package com.epam.hackathon.emotional_help.testing.api.steps.questionnaireSteps;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.epam.hackathon.emotional_help.testing.api.dataProviders.Endpoints;
 import com.epam.hackathon.emotional_help.testing.api.dataProviders.TestDataProvider;
 import com.epam.hackathon.emotional_help.testing.api.steps.emotionalMapSteps.EmotionalMap;
 import com.epam.hackathon.emotional_help.testing.api.utils.RequestUtils;
@@ -20,7 +21,7 @@ public class QuestionnaireSteps {
         logger.info("Existing questionnaire title is {}", existingTitle);
         Map<String, Object> queryParams = new HashMap<>();
         queryParams.put("title", existingTitle);
-        RequestUtils.getByQueryParams("questionnaires", queryParams);
+        RequestUtils.getByQueryParams(Endpoints.QUESTIONAIRES.getEndpoint(), queryParams);
     }
     @Then("Questionnaire has correct schema")
     public void questionnaire_has_correct_schema() {
@@ -33,6 +34,6 @@ public class QuestionnaireSteps {
         logger.info("Nonexistent questionnaire title is {}", nonexistentTitle);
         Map<String, Object> queryParams = new HashMap<>();
         queryParams.put("title", nonexistentTitle);
-        RequestUtils.getByQueryParams("questionnaires", queryParams);
+        RequestUtils.getByQueryParams(Endpoints.QUESTIONAIRES.getEndpoint(), queryParams);
     }
 }

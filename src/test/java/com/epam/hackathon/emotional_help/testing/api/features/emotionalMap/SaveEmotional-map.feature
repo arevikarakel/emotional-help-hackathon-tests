@@ -41,6 +41,14 @@ Feature: API tests for Emotional Help Project
     When Save new emotional-map for anonymous user without mark
     Then Status code should be 400
 
+  Scenario: Save new emotional-map for every possible answerGroup
+    When Save new emotional-map for every possible answerGroup
+    Then Status code should be 200
+    Then Validate user's saved emotional-map response body by jsonSchema
 
+  Scenario: Save new emotional-map for multiple answers with the same answerGroup
+    When Save new emotional-map for multiple answers with the same answerGroup
+    Then Status code should be 200
+    Then Validate user's saved emotional-map response body by jsonSchema
 
 

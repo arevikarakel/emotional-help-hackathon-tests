@@ -23,6 +23,5 @@ Feature: API tests for Emotional Help Project
       | nonExistentUsers |
       | -1               |
       | err              |
-      | 0                |
       | @#$              |
       | null             |

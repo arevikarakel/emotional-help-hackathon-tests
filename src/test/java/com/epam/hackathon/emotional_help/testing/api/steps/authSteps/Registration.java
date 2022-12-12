@@ -1,4 +1,4 @@
-package com.epam.hackathon.emotional_help.testing.api.runner.authSteps;
+package com.epam.hackathon.emotional_help.testing.api.steps.authSteps;
 
 import com.epam.hackathon.emotional_help.testing.api.dataProviders.TestDataProvider;
 import com.epam.hackathon.emotional_help.testing.api.dtos.UserDto;

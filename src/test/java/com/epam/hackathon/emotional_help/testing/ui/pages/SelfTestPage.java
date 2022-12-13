@@ -36,7 +36,7 @@ public class SelfTestPage extends BasePage{
 
     @Override
     protected void load() {
-        driver.navigate().to("https://vocal-dolphin-9aabfb.netlify.app/selftest");
+        driver.navigate().to(BASE_URI + "/selftest");
     }
 
     @Override

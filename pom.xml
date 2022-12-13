@@ -32,6 +32,13 @@
             <artifactId>cucumber-core</artifactId>
             <version>7.0.0</version>
         </dependency>
+        <!-- Cucumber-picocontainer -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-picocontainer</artifactId>
+            <version>7.0.0</version>
+            <scope>test</scope>
+        </dependency>
         <!-- Selenium -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>

@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "tip": {
+      "type": "string"
+    },
+    "video": {
+      "type": "string"
+    },
+    "feeling": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "tip",
+    "video",
+    "feeling"
+  ]
+}

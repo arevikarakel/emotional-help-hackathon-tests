@@ -1,6 +1,7 @@
 package com.epam.hackathon.emotional_help.testing.ui.steps;
 
 import java.time.Duration;
+import java.util.HashMap;
 
 import com.epam.hackathon.emotional_help.testing.api.data_provider.TestDataProvider;
 import com.epam.hackathon.emotional_help.testing.ui.drivers.DriverFactory;
@@ -22,6 +23,7 @@ public class Hooks {
         WebDriver driver = DriverFactory.createDriver(Drivers.valueOf(driverType));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
         testContext.setDriver(driver);
+        testContext.setSharedData(new HashMap<>());
     }
 
     @After

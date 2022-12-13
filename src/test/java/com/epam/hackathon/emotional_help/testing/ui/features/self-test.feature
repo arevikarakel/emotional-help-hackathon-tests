@@ -1,6 +1,10 @@
 Feature: UI tests for Emotional Help Project
 
-  Scenario: Choosing an answer
+  Scenario: Changing to the next question
+    Given I am on the home page
+    When I start the self-test
+    And I choose an answer
+    Then The next question is displayed
 
   Scenario: Taking a complete self-test
     Given I am on the home page

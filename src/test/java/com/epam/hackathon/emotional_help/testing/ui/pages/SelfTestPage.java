@@ -10,6 +10,13 @@ import org.openqa.selenium.support.PageFactory;
 import static org.junit.Assert.assertTrue;
 
 public class SelfTestPage extends BasePage{
+
+    @FindBy(css = "main p:not(:only-child)")
+    private WebElement questionNumberParagraph;
+
+    @FindBy(css = "main p:only-child")
+    private WebElement questionTextParagraph;
+
     @FindBy(css = "main button")
     private List<WebElement> answerButtons;
 
@@ -36,6 +43,14 @@ public class SelfTestPage extends BasePage{
     protected void isLoaded() throws Error {
         String url = driver.getCurrentUrl();
         assertTrue("Expected to be on self test page, but was on " + url, url.contains("selftest"));
+    }
+
+    public String getQuestionNumberText() {
+        return questionNumberParagraph.getText();
+    }
+
+    public String getQuestionText() {
+        return questionTextParagraph.getText();
     }
 
     public void chooseAnswerByIndex(int index) {
